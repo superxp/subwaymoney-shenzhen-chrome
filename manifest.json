@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "便民服务-深圳地铁",
+  "description": "深圳地铁查询",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+   "cookies",
+	 "http://121.15.13.49:8080/*"
+  ]
+}
